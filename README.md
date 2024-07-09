@@ -26,6 +26,19 @@ Welcome to the Movie Tickets Reservation System! This project is designed to str
 
 /HTML, .CSS, .JavaScript, .PHP files: Application files. Run Home.html file to start application.
 
+**Technologies Used**
+
+• HTML/JavaScript: A programming language used for developing application logic.
+
+• CSS: Used to apply proper design.
+
+• PHP: Used to create connection between application and database.
+
+• Visual Studio: An Integrated Development Environment (IDE) for development.
+
+• GitHub: A platform for version control and project hosting.
+
+
 **Getting Started**
 
 1.	Download project or create clone.
