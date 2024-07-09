@@ -40,6 +40,11 @@ Welcome to the Movie Tickets Reservation System! This project is designed to str
  
 4.	Open home.html and run.
 
+**All the pages are working properly; but, to continue running, need to add a database.**
+
+**NOTE: This HTML and CSS is only for desktop.**
+
+
 **Home Page**
 ![Screenshot (102)](https://github.com/KanchanaWijesooriya/Movie-Tickets-Reservation-System/assets/160541254/faaca21f-51b1-46f9-a192-ca056d65f708)
 
