@@ -51,7 +51,7 @@ Welcome to the Movie Tickets Reservation System! This project is designed to str
 
 3.	Run the local host server on your pc and login to it.
  
-4.	Open home.html and run.
+4.	Open index.html and run.
 
 **All the pages are working properly; but, to continue running, need to add a database.**
 
