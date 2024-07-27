@@ -183,6 +183,7 @@ body {
     cursor: pointer;
     padding: 18px 0;
 }
+
 @media (max-width: 768px) {
     .navLinks {
         flex-direction: column;
@@ -207,15 +208,6 @@ body {
         font-size: 42px;
     }
 
-    .footer {
-        height: auto;
-        padding: 20px;
-    }
-
-    .footer h1, .footer h3, .footer h5 {
-        margin-left: 0;
-    }
-
     .services {
         flex-direction: column;
     }
@@ -223,5 +215,14 @@ body {
     .card {
         width: 100%;
         margin: 20px 0;
+    }
+
+    .footer {
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer h1, .footer h3, .footer h5 {
+        margin-left: 0;
     }
 }
