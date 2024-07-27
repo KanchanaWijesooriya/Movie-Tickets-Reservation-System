@@ -185,13 +185,8 @@ body {
 }
 
 
-@media screen and (max-width: 414px) {
-    .header {
-        height: auto;
-        padding: 20px;
-        background-size: cover;
-    }
-
+@media (max-width: 768px) {
+    /* Navigation Links */
     .navLinks {
         flex-direction: column;
         align-items: flex-start;
@@ -199,12 +194,11 @@ body {
 
     .navLinks h2 {
         padding-right: 0;
-        font-size: 18px;
         margin-bottom: 10px;
     }
 
     .navLinks ul {
-        padding-left: 0;
+        padding: 0;
     }
 
     .navLinks ul li {
@@ -212,82 +206,29 @@ body {
         margin: 5px 0;
     }
 
-    .navLinks ul li a {
-        font-size: 14px;
-    }
-
-    .textBox {
-        width: 100%;
-        padding: 20px;
-        text-align: left;
-        top: auto;
-        left: auto;
-        transform: none;
-    }
-
+    /* Text Box */
     .textBox h1 {
-        font-size: 36px;
+        font-size: 42px;
     }
 
-    .textBox p {
-        font-size: 16px;
-    }
-
+    /* Services Section */
     .services {
-        width: 100%;
+        display: flex;
         flex-direction: column;
+    }
+    
+    .card {
+        width: 100%;
         margin: 20px 0;
     }
 
-    .card {
-        width: 90%;
-        margin: 10px auto;
-    }
-
-    .icon img {
-        width: 20%;
-        height: 20%;
-    }
-
-    .card h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-
-    .card p {
-        font-size: 15px;
-        margin-bottom: 20px;
-    }
-
-    .card h4 {
-        font-size: 20px;
-        bottom: 10px;
-    }
-
-    .button {
-        font-size: 14px;
-        padding: 6px 10px;
-    }
-
+    /* Footer */
     .footer {
-        padding: 20px;
         height: auto;
-        margin-top: 50px;
+        padding: 20px;
     }
 
-    .footer h1 {
-        font-size: 18px;
-    }
-
-    .footer h3 {
-        font-size: 16px;
-    }
-
-    .footer h5 {
-        font-size: 14px;
-    }
-
-    .fa-brands {
-        font-size: 24px;
+    .footer h1, .footer h3, .footer h5 {
+        margin-left: 0;
     }
 }
