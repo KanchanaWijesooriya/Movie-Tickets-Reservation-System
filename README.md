@@ -2,7 +2,7 @@
 
 GitHub Link: _https://kanchanawijesooriya.github.io/Movie-Tickets-Reservation-System/_
 
-*****This CSS is only support to desktop application. If you want to use tis mobile, please edit index.css and add mobile css media as you want.*****
+*****This CSS is only support to desktop application. If you want to use tis mobile, please edit .css files and add mobile css media as you want.*****
 
 Welcome to the Movie Tickets Reservation System! This project is designed to streamline the management of movie tickets. The main objective is to use data structures and algorithms to process user inputs. Specifically, 2D arrays are utilized in this case. One unique feature of this system is that users don't need to create an account or log in. The system is developed using HTML, CSS, JavaScript, and PHP. It enables users to select seats and reserve their tickets according to their preferences. Customers can visualize their seats and make changes using the seat reservation tab. Additionally, users can perform various tasks such as changing their seat numbers, viewing upcoming movies, selecting dates and times, returning their reservations, and other supportive tasks. 
 
