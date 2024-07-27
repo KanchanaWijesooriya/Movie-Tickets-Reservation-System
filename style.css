@@ -185,44 +185,50 @@ body {
 }
 
 @media (max-width: 768px) {
-    .navLinks {
+    .header {
+        height: 300px;
+        background-size: cover;
+    }
+    .navLinks h2 {
+        font-size: 18px;
+        padding-right: 0;
+    }
+    .navLinks ul {
         flex-direction: column;
         align-items: flex-start;
     }
-
-    .navLinks h2 {
-        padding-right: 0;
-        margin-bottom: 10px;
-    }
-
-    .navLinks ul {
-        padding: 0;
-    }
-
     .navLinks ul li {
-        display: block;
         margin: 5px 0;
     }
-
     .textBox h1 {
-        font-size: 42px;
+        font-size: 36px;
     }
-
+    .textBox p {
+        font-size: 14px;
+    }
     .services {
         flex-direction: column;
-    }
-
-    .card {
+        align-items: center;
         width: 100%;
+    }
+    .card {
+        width: 90%;
         margin: 20px 0;
     }
-
+    .icon img {
+        width: 50px;
+        height: 50px;
+    }
     .footer {
         height: auto;
-        padding: 20px;
+        padding: 20px 0;
     }
-
     .footer h1, .footer h3, .footer h5 {
-        margin-left: 0;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .fa-brands {
+        font-size: 20px;
+        margin: 0 10px;
     }
 }
