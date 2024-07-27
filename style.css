@@ -186,7 +186,6 @@ body {
 
 
 @media (max-width: 768px) {
-    /* Navigation Links */
     .navLinks {
         flex-direction: column;
         align-items: flex-start;
@@ -206,28 +205,19 @@ body {
         margin: 5px 0;
     }
 
-    /* Text Box */
     .textBox h1 {
         font-size: 42px;
     }
 
-    /* Services Section */
-    .services {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .card {
-        width: 100%;
-        margin: 20px 0;
-    }
-
-    /* Footer */
     .footer {
         height: auto;
         padding: 20px;
     }
 
+    .footer h1, .footer h3, .footer h5 {
+        margin-left: 0;
+    }
+}
     .footer h1, .footer h3, .footer h5 {
         margin-left: 0;
     }
